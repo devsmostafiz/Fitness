@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+}
+/* ======= project Fonts Here ====== */
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+/* ======= project Fonts Here ====== */
+
+/* ========== Nav Bar Start Here ========= */
+#navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo{
+   height: 100px;
+   overflow: hidden;
+   padding: 20px 0;
+}
+.logopng{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg-clr{
+    background-color: rgba(0, 0, 0, 0.757);
+}
+.icon_wrapper{
+    display: flex;
+}
+.nav_icon{
+    width: 30px;
+    height: 30px;
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffff;
+    margin-right: 30px;
+}
+.nav_icon:hover{
+    font-size: 35px;
+}
+/* ========== Banner Start Here ========== */
+#banner{
+    position: relative;
+}
+.clider{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(../images/banner1.png);
+}
+.clider_two{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(../images/hero-bg1.jpg);
+}
+.clider_three{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(../images/hero-bg2.jpg);
+}
+.clider_four{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(../images/hero-bg2\ \(1\).jpg);
+}
+#banner .slick-dots{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#banner .slick-dots li{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(210, 212, 212);
+    border-radius: 50%;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+#banner .slick-dots li button{
+    display: none;
+}
+#banner .slick-dots .slick-active{
+    background-color: rgb(0, 153, 255);
+}
+/* ====== soccial media Start Here ======= */
+#social{
+    padding: 30px 0;
+    background-color: rgb(1, 181, 234);
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+}
+.media_icon a{
+    /* padding: 15px; */
+    color: #ffff;
+}
+.media_icon a i{
+    margin: 0 15px;
+}
+.search_bar{
+    width: 300px;
+    border: none;
+    padding-left: 15px;
+    background-color: unset;
+    color: #ffff;
+}
+.scicon{
+    color: #ffff;
+}
+/* ======== Banner Start Here ======= */
+#FACILITIES{
+    padding: 80px 0;
+    background-color: #f2eded;
+}
+.fitnness_wrapper{
+    text-align: center;
+    transition: all linear 0.3s;
+}
+.f-item_wrapper:hover{
+    transform: translateY(-20px);
+    transition: all linear 0.3s;
+}
+.ftnes_title{
+    padding-bottom: 100px;
+}
+.fit_img{
+    width: 360px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.f-item_wrapper:hover .fit_img{
+    box-shadow: -20px 20px 20px rgba(0,0,0,0.3);
+}
+.image_vew{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_name{
+    width: 100%;
+    background-color: #1b5a7d;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    transition: all linear 0.3s;
+}
+.f-item_wrapper:hover .img_name{
+    opacity: 0;
+}
+.img_text{
+    padding: 10px 0;
+    color: #ffff;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.f-info{
+    opacity: 0;
+    transition: all linear 0.3s;
+    padding-top: 15px;
+}
+.f-item_wrapper:hover .f-info{
+    opacity: 100%;
+}
+.f-name{
+    padding: 10px 0;
+    color: #1b5a7d;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.f-more{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    
+}
+.f-more:hover{
+    border: 1px solid rgb(255, 0, 0);
+    color: red;
+}
+/* ========LATEST NEWS Start Here  ========= */
+#news{
+    padding: 70px 0;
+}
+.news_header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.news_title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #156894;
+    text-transform: uppercase;
+}
+.news_box_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.news_box_inner{
+    overflow: hidden;
+    margin: 0 15px;
+}
+#news .slick-dots{
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+}
+#news .slick-dots li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#news .slick-dots li button{
+    display: none;
+}
+#news .slick-dots .slick-active{
+    background-color: rgb(58, 29, 247);
+    width: 15px;
+    height: 15px;
+}
+.news_img{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news_info{
+    padding: 15px;
+    width: 350px;
+    padding-top: 20px;
+    transition: all linear 0.3s;
+}
+.news_box_inner:hover .news_info{
+    background-color: #156894;
+}
+.info_dd{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #252525;
+}
+.news_box_inner:hover .info_dd{
+    color: #ffff;
+}
+.info_pp{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    line-height: 32px;
+}
+.news_box_inner:hover .info_pp{
+    color: #ffff;
+}
+/* ========Footer Start Here ======== */
+#footer{
+    padding: 50px 0;
+    background-color: #ebe7e7;
+}
+.footer_logo{
+    overflow: hidden;
+}
+.f_logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.f_title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #0586ff;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.f_data{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #101011;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+.f_icone {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid #0586ff;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.f_icone:hover{
+    background-color: #0586ff;
+    color: #ffff;
+}
+/* ======= Banner Start Here ======= */
+#nav_end{
+    padding: 20px 0;
+    background-color: #0586ff;
+}
+.item_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_e_items{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffff;
+}
+/* ======== Banner Start Here ====== */
+#personal_info{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ======== Banner Start Here ======= */
+/* ======== Banner Start Here ======= */
+/* ======== Banner Start Here ======== */
+/* ======== Banner Start Here ====== */
+/* ======== Banner Start Here ======== */
+/* ======== Banner Start Here ======== */
